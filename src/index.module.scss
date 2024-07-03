@@ -1,0 +1,32 @@
+@import "./assets/fonts/DMSans.scss";
+@import "./assets/fonts/Inter.scss";
+@import "./assets/fonts/InterP3.scss";
+
+
+@media screen and (min-width: 1400px) {
+    * {
+        font-family: "Inter";
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .root {
+        width: 1400px;
+    }
+}    
+@media screen and (min-width: 1920px) {
+    * {
+        font-family: "Inter";
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .root {
+        width: 1920px;
+    }
+}    
+

@@ -1,0 +1,101 @@
+@media (min-width: 1920px) {
+    .card {
+        background-color: #4F9CF9;
+        display: flex;
+        flex-direction: column;
+        gap: 49px;
+        width: 472px;
+        height: 480px;
+        border-radius: 10px;
+        padding: 60px 40px 60px 40px;
+        
+        .img{
+            background-color: black;
+            border-radius: 100%;
+            width: 70px;
+            height: 70px;
+        }
+        .content {
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+    }  
+    .card:hover {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        gap: 49px;
+        width: 472px;
+        height: 480px;
+        border-radius: 10px;
+        padding: 60px 40px 60px 40px;
+        box-shadow: 10px 10px 50px 0px #00000014;
+
+        
+        .img{
+            background-color: black;
+            border-radius: 100%;
+            width: 70px;
+            height: 70px;
+        }
+        .content {
+            color: black;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+    }  
+}
+
+@media (min-width: 1400px) {
+    .card {
+        background-color: #4F9CF9;
+        display: flex;
+        flex-direction: column;
+        gap: 49px;
+        width: 424px;
+        height: 480px;
+        border-radius: 10px;
+        padding: 60px 40px 60px 40px;
+        
+        .img{
+            background-color: black;
+            border-radius: 100%;
+            width: 70px;
+            height: 70px;
+        }
+        .content {
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+    }  
+    .card:hover {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        gap: 49px;
+        width: 424px;
+        height: 480px;
+        border-radius: 10px;
+        padding: 60px 40px 60px 40px;
+        box-shadow: 10px 10px 50px 0px #00000014;
+
+        
+        .img{
+            background-color: black;
+            border-radius: 100%;
+            width: 70px;
+            height: 70px;
+        }
+        .content {
+            color: black;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+    }  
+}

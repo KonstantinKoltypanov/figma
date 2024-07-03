@@ -1,0 +1,26 @@
+@media screen and (min-width: 1400px) {
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    padding: 140px 32px 140px 32px;
+}
+.stackFeedback {
+    display: flex;
+    gap: 32px;  
+}
+}
+@media screen and (min-width: 1920px) {
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    padding: 140px 220px 140px 220px;
+}
+.stackFeedback {
+    display: flex;
+    gap: 32px;  
+}
+}

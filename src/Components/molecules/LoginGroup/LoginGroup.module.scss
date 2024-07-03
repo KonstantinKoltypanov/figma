@@ -1,0 +1,25 @@
+.loginGroup {
+    display: flex;
+    gap: 24px;
+    justify-content:space-between;
+    height: 60px;
+}
+
+.login {
+    padding: 16px 40px 16px 40px;
+    width: 126px;
+    height: 60px;
+    background-color: #FFE492;
+    color: #043873;
+}
+.login:hover {
+    background-color: #043873;
+}
+
+.try {
+     padding: 16px 24px 16px 24px;
+    width: 227px;
+    height: 60px;
+    background-color: #4F9CF9;
+    color: #FFFFFF;
+}

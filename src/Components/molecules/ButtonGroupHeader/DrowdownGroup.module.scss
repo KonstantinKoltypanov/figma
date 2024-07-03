@@ -1,0 +1,37 @@
+.buttonGroup {
+    width: 928.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdownGroup {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.loginGroup {
+    display: flex;
+    gap: 24px;
+
+    button {
+        gap: 10px;
+      
+    }
+}
+
+.buttonLogin {
+    padding: 16px 40px 16px 40px;
+    width: 126px;
+    height: 60px;
+    background-color: #FFE492;
+    color: #043873;
+}
+
+.buttonTry {
+    padding: 16px 24px 16px 24px;
+    width: 227px;
+    height: 60px;
+    background-color: #4F9CF9;
+    color: #FFFFFF;
+}   

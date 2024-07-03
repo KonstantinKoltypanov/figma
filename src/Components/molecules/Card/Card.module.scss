@@ -1,0 +1,139 @@
+@media (min-width: 1920px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 472.33px;
+        height: 634px;
+        border-radius: 10px;
+        border: 1px solid #FFE492;
+        color: #212529;
+        padding: 40px 44px 40px 44px;
+        gap: 25px;
+
+        .button {
+            padding: 16px 40px 16px 40px;
+            border-radius: 8px;
+            width: 166px;
+            height: 51px;
+            border: 1px solid #FFE492;
+            background-color: #FFFFFF;
+        }
+
+        .element {
+            color: black;
+            font-family: 'Inter/P3/Regular';
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.32px;
+            font-weight: 400;
+        }
+    }
+    .card:hover {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 44px 80px 44px;
+        border-radius: 10px;
+        border: 0;
+        gap: 25px;
+        width: 472.33px;
+        height: 761px;
+        box-shadow: 0px 4px 50px 0px #00000014;
+        color: #043873;
+
+        .button {
+            display: flex;
+            border: 0;
+            padding: 16px 40px 16px 40px;
+            border-radius: 8px;
+            width: 166px;
+            height: 51px;
+            background-color: #4F9CF9;
+            color: #FFFFFF;
+        }
+             .element {
+            color:#043873;
+            font-family: 'Inter';
+            font-size: 18px;
+            line-height:23px;
+            letter-spacing: -0.36px;
+            font-weight: 500;
+        }
+        
+    }
+
+    .elementContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+      .card {
+        display: flex;
+        flex-direction: column;
+        width: 424px;
+        height: 654px;
+        border-radius: 10px;
+        border: 1px solid #FFE492;
+        color: #212529;
+        padding: 40px 44px 40px 44px;
+        gap: 25px;
+
+        .button {
+            padding: 16px 40px 16px 40px;
+            border-radius: 8px;
+            width: 166px;
+            height: 51px;
+            border: 1px solid #FFE492;
+            background-color: #FFFFFF;
+        }
+
+        .element {
+            color: black;
+            font-family: 'Inter/P3/Regular';
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.32px;
+            font-weight: 400;
+        }
+    }
+    .card:hover {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 44px 80px 44px;
+        border-radius: 10px;
+        border: 0;
+        gap: 25px;
+        width: 424px;
+        height: 761px;
+        box-shadow: 0px 4px 50px 0px #00000014;
+        color: #043873;
+
+        .button {
+            display: flex;
+            border: 0;
+            padding: 16px 40px 16px 40px;
+            border-radius: 8px;
+            width: 166px;
+            height: 51px;
+            background-color: #4F9CF9;
+            color: #FFFFFF;
+        }
+             .element {
+            color:#043873;
+            font-family: 'Inter';
+            font-size: 18px;
+            line-height:23px;
+            letter-spacing: -0.36px;
+            font-weight: 500;
+        }
+        
+    }
+
+    .elementContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+}
