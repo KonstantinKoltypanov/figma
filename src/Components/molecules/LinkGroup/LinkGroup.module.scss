@@ -1,0 +1,21 @@
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #FFFFFF;
+    width: 205.25px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+}
+.link:hover {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.32px;
+    color: rgba(255, 228, 146, 1);
+}

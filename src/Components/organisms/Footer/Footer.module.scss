@@ -1,12 +1,173 @@
-.footer {
-    background-color: #043873;
-    width: 1920px;
-    height: 474px;
-    padding: 140px 220px 32px 220px;
+@media screen and (min-width: 1400px) {
+     .footer {
+        display: flex;
+        flex-direction: column;
+        gap:100px;
+        
+        background-color: #043873;
+        width: 1400px;
+        height: 474px;
+        padding: 140px 32px 32px 32px;
+    
+        .svg {
+            path {
+                fill: #FFFFFF;
+            }
+        }
+    
+        .logoDescription {
+            width: 205.25px;
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+    
+            p {
+                width: 240px;
+            }
+        }
+        .info {
+            width: auto;
+            height: 182px;
+            display: flex;
+            gap :100px;
+        }
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+            width: 259px;
+            h2 {
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: -0.5px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: -0.32px;
+            }
+        }
+        .groupText {
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+        }
+        .button {
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: -0.32px;
+            line-height: 20px;
+            background-color: #4F9CF9;
+            color: #FFFFFF;
+            width: 186px;
+            height: 60px;
+        }
+    
+        .btm {
+            display: flex;
+            justify-content: space-between;
+        }
+        .btmButtons {
+            display: flex;
+            gap:60px;
+            height: 20px;
+    
+            .link {
+                color: #FFFFFF;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: -0.32px;
+            }
+        }
+    }
 }
-.info {
-    width: auto;
-    height: auto;
-    display: flex;
-    background-color: antiquewhite;
+
+@media screen and (min-width: 1920px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap:100px;
+        
+        background-color: #043873;
+        width: 1920px;
+        height: 474px;
+        padding: 140px 220px 32px 220px;
+    
+        .svg {
+            path {
+                fill: #FFFFFF;
+            }
+        }
+    
+        .logoDescription {
+            width: 205.25px;
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+    
+            p {
+                width: 240px;
+            }
+        }
+        .info {
+            width: auto;
+            height: 182px;
+            display: flex;
+            gap :100px;
+        }
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+            width: 259px;
+            h2 {
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: -0.5px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: -0.32px;
+            }
+        }
+        .groupText {
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+        }
+        .button {
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: -0.32px;
+            line-height: 20px;
+            background-color: #4F9CF9;
+            color: #FFFFFF;
+            width: 186px;
+            height: 60px;
+        }
+    
+        .btm {
+            display: flex;
+            justify-content: space-between;
+        }
+        .btmButtons {
+            display: flex;
+            gap:60px;
+            height: 20px;
+    
+            .link {
+                color: #FFFFFF;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: -0.32px;
+            }
+        }
+    }
 }

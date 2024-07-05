@@ -1,8 +1,8 @@
 import { HeadersTypography } from '@/Components/atoms/Headers/HeadersTypography'
 import { FeedbackCard } from '@/Components/molecules/FeedbackCard/FeedbackCard'
 import * as style from './SectionEight.module.scss'
-import Slider from '@/assets/Slider.svg'
 import React from 'react'
+import { Slider }  from '@/Components/molecules/Slider/Slider'
 
 export const SectionEight = () => {
   return (
@@ -25,7 +25,10 @@ export const SectionEight = () => {
           It’s so easy and intuitive to get a new event setup and if you need any help their customer service is seriously amazing.”'
           />  
       </div>  
-      <Slider />
+      <div className={style.slideContainer}>
+        <Slider type='left'/>
+         <Slider type='right'/>
+      </div>
     </section>
   )
 }

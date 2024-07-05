@@ -1,4 +1,5 @@
 .button {
+    letter-spacing: -0.06px;
     display: flex;
     align-items: center;
     height: 23px;
@@ -6,6 +7,7 @@
     border: 0;
     padding: 0;
     gap: 10px;
+    background-clip: text;
 }
 
 .text {

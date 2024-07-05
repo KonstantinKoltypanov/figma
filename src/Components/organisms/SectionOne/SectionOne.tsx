@@ -9,7 +9,8 @@ export const SectionOne = () => {
               title='Get More Done with whitepace'
               titleType='h1'
               content='Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks'
-              button='Try Whitepace free'
+          button='Try Whitepace free'
+          colorContent='#4F9CF9'
               style={
                     {
                       container: style.container,

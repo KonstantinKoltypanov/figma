@@ -13,10 +13,10 @@ export const SectionSix = () => {
             Our sponsors      
         </HeadersTypography>
         <div className={style.imgContainer}>
-              <img src={imgApple} alt="sponsors" />
-              <img src={imgMicrosoft} alt="sponsors" />
-              <img src={imgSlack} alt="sponsors" />
-              <img src={imgGoogle} alt="sponsors" />
+              <img src={imgApple} alt="Apple" />
+              <img src={imgMicrosoft} alt="Microsoft" />
+              <img src={imgSlack} alt="Slack" />
+              <img src={imgGoogle} alt="Google" />
           </div>
     </section>
   )

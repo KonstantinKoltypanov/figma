@@ -17,8 +17,10 @@ export const SectionFive = () => {
                 groupText: style.groupText,
                 button: style.button
               }}
-          />
-          <Image width={681} height={381.13}/>
+      />
+      {/* <img src={Image}></img> */}
+      <Image className={style.svg} />
     </section>
 )
 }
+

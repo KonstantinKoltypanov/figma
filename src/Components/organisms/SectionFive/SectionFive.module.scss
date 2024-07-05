@@ -9,6 +9,12 @@
             width: 681px;
             height: 381.13px;
         }
+        .svg {
+            transform: translate(-39px, -4px) scale(1);
+            overflow: visible;
+            width: 681px;
+            height: 381.13px;
+        }
     }
 
 .container {
@@ -50,17 +56,20 @@
 
 .container {
     width: 800px;
+    height: 381.13px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 60px
 }
 .groupText {
+    width: 800px;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 .button {
+        letter-spacing: 0.3px;
     border-radius: 8px;
     width: 197px;
     height: 63px;

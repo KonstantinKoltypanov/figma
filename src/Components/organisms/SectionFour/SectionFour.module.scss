@@ -41,14 +41,14 @@
 
 @media screen and (min-width: 1920px) {
 .section {
-    width: 100%;
+    width: 1921px;
     background-color: #043873;
     padding: 140px 220px 140px 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     color: white;
+     color: white;  
 }
 .container {
     display: flex;
@@ -57,24 +57,34 @@
     align-items: center;
     text-align: center;
     gap: 60px;
-    width: 1064px;
+    width: 1481px;
     
 }
 .groupText {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 1064px;
+    h2 {
+        text-align: left;
+        letter-spacing: -1.39px;
+    }
    
 }
 .button {
     border-radius: 8px;
-    width: 176px;
+    width: 195px;
     height: 63px;
     padding: 20px;
     gap: 10px;
     background-color: #4F9CF9;
     color: #FFFFFF;
     justify-content: center;
+
+    img {
+        width: 14px;
+        height: 14px;
+    }
 }
 
     

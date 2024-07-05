@@ -10,17 +10,35 @@
     display: flex;
     gap: 32px;  
 }
+.slideContainer {
+    display: flex;
+    gap:100px;
+}
+
 }
 @media screen and (min-width: 1920px) {
 .section {
+    
+    width: 1920px;
+    height: 1042px;
     display: flex;
     flex-direction: column;
     gap: 60px;
     align-items: center;
     padding: 140px 220px 140px 220px;
+
+    h2 {
+        letter-spacing: -1.44px;
+    }
 }
 .stackFeedback {
     display: flex;
     gap: 32px;  
 }
+
+.slideContainer {
+    display: flex;
+    gap:100px;
+}
+
 }
